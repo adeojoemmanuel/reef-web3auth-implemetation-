@@ -1,6 +1,6 @@
-# Web3Auth Reef Example
+# Web3Auth implemetation task
 
-Minimal sample dApp using [Web3Auth](https://web3auth.io/docs/) to interact with the Reef Chain.
+ [Web3Auth](https://web3auth.io/docs/) on Reef Chain.
 
 ## Getting Started
 
