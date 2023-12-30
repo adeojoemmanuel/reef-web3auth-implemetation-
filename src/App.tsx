@@ -204,7 +204,7 @@ const App = (): JSX.Element => {
 
   return (
     <div className="App">
-      <h1>Reef Web3Auth dApp</h1>
+      <h1> Web3Auth using Reefchain</h1>
       { web3auth && !loggedIn &&
         <button onClick={login}>Login</button>
       }
@@ -214,7 +214,7 @@ const App = (): JSX.Element => {
           { reefAccount && <Account account={reefAccount} /> }
           <button onClick={getUserInfo}>Get User Info</button>
           <button onClick={authenticateUser}>Get ID Token</button>
-          <button onClick={nativeTransfer}>Native transfer</button>
+          {/* <button onClick={nativeTransfer}>Native transfer</button> */}
           <button onClick={signRaw}>Sign message</button>
           { reefAccount && !reefAccount.isEvmClaimed &&
             <>
